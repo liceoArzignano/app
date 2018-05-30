@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.preference.PreferenceCategory android:title="@string/help_category_contact">
+
+        <androidx.preference.PreferenceScreen
+            android:icon="@drawable/ic_help_call"
+            android:title="@string/help_contact_call">
+            <intent
+                android:action="android.intent.action.DIAL"
+                android:data="tel:0444676125" />
+        </androidx.preference.PreferenceScreen>
+
+        <androidx.preference.PreferenceScreen
+            android:icon="@drawable/ic_help_email"
+            android:title="@string/help_contact_email">
+            <intent
+                android:action="android.intent.action.SENDTO"
+                android:data="mailto:viis00200v@istruzione.it" />
+        </androidx.preference.PreferenceScreen>
+
+        <androidx.preference.PreferenceScreen
+            android:icon="@drawable/ic_help_feedback"
+            android:title="@string/help_contact_feedback">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/liceoArzignano/app/issues/new" />
+        </androidx.preference.PreferenceScreen>
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:key="help_how_to"
+        android:title="@string/help_category_how">
+
+        <androidx.preference.Preference
+            android:icon="@drawable/ic_help_howto"
+            android:key="help_pings"
+            android:persistent="false"
+            android:title="@string/help_how_pings" />
+
+        <androidx.preference.Preference
+            android:icon="@drawable/ic_help_howto"
+            android:key="help_marks"
+            android:persistent="false"
+            android:title="@string/help_how_marks" />
+
+        <androidx.preference.Preference
+            android:icon="@drawable/ic_help_howto"
+            android:key="help_notes"
+            android:persistent="false"
+            android:title="@string/help_how_notes" />
+    </androidx.preference.PreferenceCategory>
+
+
+    <androidx.preference.PreferenceCategory
+        android:key="help_info"
+        android:title="@string/help_category_info">
+
+        <androidx.preference.Preference
+            android:icon="@drawable/ic_help_info"
+            android:key="help_info_version"
+            android:persistent="false"
+            tools:title="Version 1.0.27" />
+
+        <androidx.preference.PreferenceScreen
+            android:icon="@drawable/ic_help_oss"
+            android:title="@string/help_info_oss">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://liceoarzignano.github.io/oss" />
+        </androidx.preference.PreferenceScreen>
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

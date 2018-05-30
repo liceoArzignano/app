@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="note_categories">
+        <item>@string/notes_category_generic</item>
+        <item>@string/notes_category_test</item>
+        <item>@string/notes_category_homework</item>
+        <item>@string/notes_category_birthday</item>
+        <item>@string/notes_category_remember</item>
+    </string-array>
+</resources>

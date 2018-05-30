@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Address -->
+    <string name="address_0" translatable="false">Scientifico</string>
+    <string name="address_1" translatable="false">Scienze applicate</string>
+    <string name="address_2" translatable="false">Linguistico</string>
+    <string name="address_3" translatable="false">Scienze umane</string>
+    <string name="address_4" translatable="false">Scienze umane (economico-sociale)</string>
+</resources>

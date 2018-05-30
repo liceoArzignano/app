@@ -1,0 +1,44 @@
+ext {
+
+    lifecycleLib = [
+            compiler : "androidx.lifecycle:lifecycle-compiler:2.0.0-alpha1",
+            extensions : "androidx.lifecycle:lifecycle-extensions:2.0.0-alpha1",
+    ]
+
+    roomLib = [
+            compiler : "androidx.room:room-compiler:2.0.0-alpha1",
+            runtime : "androidx.room:room-runtime:2.0.0-alpha1",
+    ]
+
+    extLib = [
+            materialDialogs : 'com.afollestad.material-dialogs:core:0.9.6.0',
+            materialTapTargetPrompt : 'uk.co.samuelwall:material-tap-target-prompt:2.7.0',
+            spark : 'com.robinhood.spark:spark:1.2.0',
+    ]
+
+    firebaseLib = [
+            core : "com.google.firebase:firebase-core:15.0.2",
+            messaging : "com.google.firebase:firebase-messaging:15.0.2",
+    ]
+
+    googleLib = [
+            material : "com.google.android.material:material:1.0.0-alpha1",
+    ]
+
+    kotlinLib = [
+            stdlib : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.41",
+    ]
+
+    androidxLib = [
+            appcompat : "androidx.appcompat:appcompat:1.0.0-alpha1",
+            browser : "androidx.browser:browser:1.0.0-alpha1",
+            preferencev7 : "androidx.preference:preference:1.0.0-alpha1",
+            preferencev14 : "androidx.legacy:legacy-preference-v14:1.0.0-alpha1",
+    ]
+
+    testLib = [
+            espresso : 'androidx.test.espresso:espresso-core:3.1.0-alpha3',
+            runner : 'androidx.test:runner:1.1.0-alpha3',
+            junit : 'junit:junit:4.12',
+    ]
+}

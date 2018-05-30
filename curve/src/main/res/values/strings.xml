@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Liceo</string>
+
+    <string name="feature_settings">Settings</string>
+    <string name="feature_help">Help</string>
+
+    <!-- Notes - Editor -->
+    <string name="notes_category_generic">Note</string>
+    <string name="notes_category_test">Test</string>
+    <string name="notes_category_homework">Homework</string>
+    <string name="notes_category_birthday">Birthday</string>
+    <string name="notes_category_remember">To do</string>
+    <string name="notes_editor_title_new">Add note</string>
+    <string name="notes_editor_title_update">Edit note</string>
+    <string name="notes_editor_hint_title">Title</string>
+    <string name="notes_editor_hint_category">Tag</string>
+    <string name="notes_editor_hint_content">Content</string>
+
+    <!-- Notes - List -->
+    <string name="notes_empty_content">Your notes will appear here.\nClick on the + button to add your first note</string>
+    <string name="notes_delete_title">Delete note</string>
+    <string name="notes_delete_message">Are you sure you want to delete the note? This action cannot be undone</string>
+    <string name="notes_share_message">%1$s: %2$s (%3$s)</string>
+
+    <!-- Preferences -->
+    <string name="preferences_name">Preferences</string>
+    <string name="preferences_title_address">Study address</string>
+    <string name="preferences_dialog_addresses_title">Select an address</string>
+    <string name="preferences_title_notifications_ping">Show notifications for pings</string>
+    <string name="preferences_summary_on_notifications_ping">You will receive pings as soon as possible</string>
+    <string name="preferences_summary_off_notifications_ping">You will see new pings only when the app is opened</string>
+    <string name="preferences_username_title">User name</string>
+    <string name="preferences_username_default">Student</string>
+
+</resources>

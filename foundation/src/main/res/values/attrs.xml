@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircularProgressBar">
+        <attr name="shouldAnimate" format="boolean" />
+        <attr name="textColor" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="lowColor" format="color" />
+        <attr name="mediumColor" format="color" />
+        <attr name="highColor" format="color" />
+        <attr name="lowThreshold" format="float" />
+        <attr name="highThreshold" format="float" />
+    </declare-styleable>
+</resources>

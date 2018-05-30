@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorAccent" tools:override="true">#607fa1</color>
+    <color name="colorAccentDark" tools:override="true">#325372</color>
+
+    <color name="ic_launcher_background">#E5F0FF</color>
+</resources>

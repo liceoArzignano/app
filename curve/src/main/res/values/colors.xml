@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorAccent" tools:override="true">#88b93e</color>
+    <color name="colorAccentDark" tools:override="true">#578901</color>
+
+    <color name="navDrawerItemBg">#2288b93e</color>
+    <color name="ic_launcher_background">#f3f9e9</color>
+</resources>

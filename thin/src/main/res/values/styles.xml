@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.SettingsTheme" parent="@style/AppTheme.NoActionBar">
+        <item name="alertDialogTheme">@style/AppTheme.PreferenceDialog</item>
+    </style>
+
+    <style name="AppTheme.PreferenceDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

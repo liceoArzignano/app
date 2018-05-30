@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/nav_drawer_main">
+
+        <item
+            android:id="@+id/nav_drawer_pings"
+            android:checkable="true"
+            android:checked="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_feature_pings"
+            android:showAsAction="ifRoom"
+            android:title="@string/feature_pings" />
+
+        <item
+            android:id="@+id/nav_drawer_marks"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_feature_marks"
+            android:showAsAction="ifRoom"
+            android:title="@string/feature_marks" />
+
+        <item
+            android:id="@+id/nav_drawer_notes"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/ic_feature_notes"
+            android:showAsAction="ifRoom"
+            android:title="@string/feature_notes" />
+    </group>
+
+    <group android:id="@+id/nav_drawer_extra">
+
+        <item
+            android:id="@+id/nav_drawer_preferences"
+            android:checkable="false"
+            android:enabled="true"
+            android:icon="@drawable/ic_settings"
+            android:showAsAction="ifRoom"
+            android:title="@string/feature_settings" />
+
+        <item
+            android:id="@+id/nav_drawer_help"
+            android:checkable="false"
+            android:enabled="true"
+            android:icon="@drawable/ic_help"
+            android:showAsAction="ifRoom"
+            android:title="@string/feature_help" />
+    </group>
+</menu>

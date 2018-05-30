@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+
+android {
+    compileSdkVersion 'android-P'
+
+    defaultConfig {
+        applicationId "it.liceoarzignano.thin"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary true
+        resConfigs "en", "it"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    aaptOptions.additionalParameters "--no-version-vectors"
+}
+
+dependencies {
+    implementation kotlinLib.stdlib
+
+    implementation androidxLib.appcompat
+    implementation androidxLib.browser
+    implementation androidxLib.preferencev7
+    implementation androidxLib.preferencev14
+
+    implementation googleLib.material
+
+    implementation lifecycleLib.extensions
+    kapt lifecycleLib.compiler
+    implementation roomLib.runtime
+    kapt roomLib.compiler
+
+    implementation firebaseLib.core
+    implementation firebaseLib.messaging
+
+    implementation extLib.materialDialogs
+
+    implementation project(path: ':foundation')
+}
+
+apply plugin: 'com.google.gms.google-services'

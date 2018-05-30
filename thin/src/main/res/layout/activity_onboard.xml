@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/onboard_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_onboard_message_question"
+            android:gravity="center_vertical"
+            android:minHeight="40dp"
+            android:paddingStart="16dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="4dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="gone"
+            tools:text="Hello!"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/onboard_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onboard_question"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_onboard_message_answer"
+            android:gravity="center_vertical"
+            android:minHeight="40dp"
+            android:paddingStart="16dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="4dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="gone"
+            tools:text="Hi!\nHow's it going?"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/onboard_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:clickable="false"
+            android:contentDescription="@string/onboard_action_back"
+            android:focusable="false"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="8dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_toolbar_back"
+            tools:visibility="visible" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/onboard_answer_selector"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/onboard_back"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            tools:listitem="@layout/item_onboard_answer" />
+
+
+        <TextView
+            android:id="@+id/onboard_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/onboard_answer_selector"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:drawableStart="@drawable/ref_info_help"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:textColor="@color/secondaryColor"
+            android:visibility="gone"
+            tools:text="@string/onboard_reply_hint_a"
+            tools:visibility="visible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@id/onboard_answer_selector"
+            android:layout_marginBottom="6dp"
+            android:background="@color/cardBorder" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

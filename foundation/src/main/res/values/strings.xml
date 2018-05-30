@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Features -->
+    <string name="feature_marks">Marks</string>
+    <string name="feature_notes">Notes</string>
+    <string name="feature_pings">Pings</string>
+
+    <!-- Actions -->
+    <string name="action_ask_again">Ask again</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_deleted">Deleted</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_save">Save</string>
+    <string name="action_proceed">Proceed</string>
+    <string name="action_saved">Saved</string>
+    <string name="action_share">Share</string>
+
+    <!-- Time -->
+    <string name="time_today">Today</string>
+    <string name="time_yesterday">Yesterday</string>
+    <string name="time_last_x">Last %1$s</string>
+    <string name="time_x_y_ago">%1$d %2$s ago</string>
+    <string name="time_tomorrow">Tomorrow</string>
+    <string name="time_next_x">Next %1$s</string>
+    <string name="time_in_x_y">In %1$d %2$s</string>
+    <string name="time_day_month_short_format">dd MMM</string>
+
+    <!-- Marks -->
+    <string name="marks_quarter_change_title">New quarter</string>
+    <string name="marks_quarter_change_intro_message">A new quarter has begun, you can now start clean by archiving all this\' quarter marks by exporting them. Do you want to proceed?</string>
+    <string name="marks_quarter_change_permission_error">The storage access permission is required to archive and export this quarter\'s marks. Please grant it</string>
+    <string name="marks_quarter_change_export_wip">Exporting marks\u2026</string>
+    <string name="marks_quarter_change_delete">All your marks have been saved in the SD card. Do you want to remove them from the app to start clean?\n(You\'ll still be able to see old marks by opening the exported report found in the internal storage)</string>
+    <string name="marks_quarter_change_delete_wip">Deleting marks\u2026</string>
+    <string name="marks_quarter_change_done">All</string>
+
+    <!-- Marks - Editor -->
+    <string name="marks_editor_title_new">New mark</string>
+    <string name="marks_editor_title_update">Update mark</string>
+    <string name="marks_editor_hint_subject">Subject</string>
+    <string name="editor_hint_date">Date</string>
+    <string name="marks_editor_hint_notes">Notes</string>
+    <string name="marks_editor_hint_value">0</string>
+    <string name="marks_editor_error_value">Set a valid score</string>
+
+    <!-- Marks - Subject view -->
+    <string name="marks_empty_content">Your marks will appear here.\nClick on the + button to add your first mark</string>
+    <string name="editor_date_format">EEEE dd MM yyyy</string>
+    <string name="marks_delete_title">Delete mark</string>
+    <string name="marks_delete_message">Are you sure you want to delete this mark? This action cannot be undone</string>
+    <string name="marks_share_message">I got %1$s in %2$s</string>
+    <string name="marks_preview">Your average is %1$.2f\nTo have sufficiency the next mark must be at least %2$s</string>
+
+    <!-- Marks - Subjects -->
+    <string name="subject_english">English</string>
+    <string name="subject_french">French</string>
+    <string name="subject_german">German</string>
+    <string name="subject_history">History</string>
+    <string name="subject_history_of_art">History of art</string>
+    <string name="subject_human">Human sciences</string>
+    <string name="subject_irc">IRC</string>
+    <string name="subject_it">IT</string>
+    <string name="subject_italian">Italian</string>
+    <string name="subject_latin">Latin</string>
+    <string name="subject_law_economy">Law </string>
+    <string name="subject_math">Math</string>
+    <string name="subject_philosophy">Philosophy</string>
+    <string name="subject_physics">Physics</string>
+    <string name="subject_ped">PED</string>
+    <string name="subject_science">Science</string>
+    <string name="subject_spanish">Spanish</string>
+
+    <!-- Pings -->
+    <string name="ping_empty_content">Pings you will receive appear here.\nA ping is a news or update sent from the school</string>
+
+    <!-- Help -->
+    <string name="help_title">Help</string>
+    <string name="help_category_contact">Contact us</string>
+    <string name="help_contact_call">Call</string>
+    <string name="help_contact_email">Email</string>
+    <string name="help_contact_feedback">Send feedback</string>
+    <string name="help_category_how">Popular</string>
+    <string name="help_how_pings">Pings</string>
+    <string name="help_how_marks">Marks</string>
+    <string name="help_how_notes">Notes</string>
+    <string name="help_category_info">Info</string>
+    <string name="help_info_version">Version %1$s</string>
+    <string name="help_info_oss">Open source</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_pings_title">Pings</string>
+    <string name="notification_channel_pings_description">News and updates from the school</string>
+</resources>

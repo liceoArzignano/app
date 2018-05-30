@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ref_empty_marks">@drawable/empty_marks</drawable>
+    <drawable name="ref_empty_pings">@drawable/empty_pings</drawable>
+    <drawable name="ref_info_help">@drawable/ic_info</drawable>
+</resources>

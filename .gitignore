@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/thin/google-services.json
+/curve/google-services.json
+/thin/release
+/curve/release

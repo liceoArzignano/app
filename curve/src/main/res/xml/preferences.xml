@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.preference.ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="@string/preferences_dialog_addresses_title"
+        android:entries="@array/addresses"
+        android:entryValues="@array/addresses_values"
+        android:key="pref_user_address"
+        android:summary="%s"
+        android:title="@string/preferences_title_address" />
+
+    <androidx.preference.EditTextPreference
+        android:defaultValue="Student"
+        android:key="pref_user_name"
+        android:title="@string/preferences_username_title" />
+
+    <androidx.preference.SwitchPreference
+        android:defaultValue="true"
+        android:key="pref_user_notifications_ping"
+        android:summaryOff="@string/preferences_summary_off_notifications_ping"
+        android:summaryOn="@string/preferences_summary_on_notifications_ping"
+        android:title="@string/preferences_title_notifications_ping" />
+</androidx.preference.PreferenceScreen>

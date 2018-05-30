@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5F5F5</color>
+    <color name="colorPrimaryDark">#E0E0E0</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorAccentDark">#000000</color>
+
+    <color name="black">#333333</color>
+    <color name="white">#fafafa</color>
+
+    <color name="cardColor">#fefefe</color>
+    <color name="cardBorder">#11000000</color>
+    <color name="boxEditor">#6b000000</color>
+    <color name="secondaryColor">#aa000000</color>
+
+    <color name="positive">#36B37E</color>
+    <color name="negative">#FF5630</color>
+    <color name="neutral">#FF8B00</color>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Liceo GO</string>
+
+    <!-- Main -->
+    <string name="main_menu_preferences">Preferences</string>
+
+    <!-- Preferences -->
+    <string name="preferences_name">Preferences</string>
+    <string name="preferences_title_address">Study address</string>
+    <string name="preferences_dialog_addresses_title">Select an address</string>
+    <string name="preferences_title_notifications_ping">Show notifications for pings</string>
+    <string name="preferences_summary_on_notifications_ping">You will receive pings as soon as possible</string>
+    <string name="preferences_summary_off_notifications_ping">You will see new pings only when the app is opened</string>
+    <string name="preferences_title_switch_to">Switch to full version</string>
+    <string name="preferences_summary_switch_to">Your device is capable enough to use the complete version of the app. Click here to download it</string>
+
+    <!-- OnBoarding -->
+    <string name="onboard_hello_question">Hi, welcome to the Liceo app!</string>
+    <string name="onboard_hello_answer_a">Hello!</string>
+    <string name="onboard_hello_answer_b">What\'s up?</string>
+    <string name="onboard_address_question">In order to use this app I need an information: what\'s your study address?</string>
+    <string name="onboard_ready_question">Awesome! You\'re good to go!</string>
+    <string name="onboard_ready_answer">Let\'s start!</string>
+    <string name="onboard_reply_hint_a">Select one of the answers below</string>
+    <string name="onboard_reply_hint_b">Press the back button if you\'ve picked the wrong address</string>
+    <string name="onboard_action_back">Back</string>
+</resources>

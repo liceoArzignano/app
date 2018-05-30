@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_notes_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_note"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/fragment_notes_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/empty_notes"
+        android:drawablePadding="16dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:paddingBottom="64dp"
+        android:text="@string/notes_empty_content"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+</LinearLayout>

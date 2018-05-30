@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Liceo GO</string>
+
+    <!-- Main -->
+    <string name="main_menu_preferences">Preferenze</string>
+
+    <!-- Preferences -->
+    <string name="preferences_name">Preferenze</string>
+    <string name="preferences_title_address">Indirizzo di studi</string>
+    <string name="preferences_dialog_addresses_title">Seleziona un indirizzo</string>
+    <string name="preferences_title_notifications_ping">Mostra le notifiche per i ping</string>
+    <string name="preferences_summary_on_notifications_ping">Riceverai i ping il prima possibile</string>
+    <string name="preferences_summary_off_notifications_ping">Vedrai i ping solo all\'apertura dell\'app</string>
+    <string name="preferences_title_switch_to">Passa alla versione completa</string>
+    <string name="preferences_summary_switch_to">Il tuo dispositivo \u00E8 abbastanza potente da eseguire la versione completa dell\'app. Tocca qui per scaricarla</string>
+
+    <!-- OnBoarding -->
+    <string name="onboard_hello_question">Ciao, benvenuto nell\'app Liceo!</string>
+    <string name="onboard_hello_answer_a">Ciao!</string>
+    <string name="onboard_hello_answer_b">Che succede?</string>
+    <string name="onboard_address_question">Prima di iniziare ad usare l\'app devo farti una domanda: qual\'\u00E8 il tuo indirizzo di studi?</string>
+    <string name="onboard_ready_question">Ottimo! Possiamo cominciare!</string>
+    <string name="onboard_ready_answer">Iniziamo!</string>
+    <string name="onboard_reply_hint_a">Scegli una delle risposte qui sotto</string>
+    <string name="onboard_reply_hint_b">Premi il pulsante indietro se hai scelto l\'indirizzo sbagliato</string>
+    <string name="onboard_action_back">Indietro</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_preferences"
+        android:title="@string/main_menu_preferences"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/main_help"
+        android:title="@string/help_title"
+        android:showAsAction="never" />
+</menu>

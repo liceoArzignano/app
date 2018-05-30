@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Liceo</string>
+
+    <string name="feature_settings">Preferenze</string>
+    <string name="feature_help">Help</string>
+
+    <!-- Notes - Editor -->
+    <string name="notes_category_generic">Appunto</string>
+    <string name="notes_category_test">Verifica</string>
+    <string name="notes_category_homework">Compiti</string>
+    <string name="notes_category_birthday">Compleanno</string>
+    <string name="notes_category_remember">Da fare</string>
+    <string name="notes_editor_title_new">Nuovo appunto</string>
+    <string name="notes_editor_title_update">Modifica appunto</string>
+    <string name="notes_editor_hint_title">Titolo</string>
+    <string name="notes_editor_hint_category">Tag</string>
+    <string name="notes_editor_hint_content">Contenuto</string>
+
+    <!-- Notes - List -->
+    <string name="notes_empty_content">I tuoi appunti appariranno qui.\nTocca il pulsante + per aggiungere il tuo primo appunto</string>
+    <string name="notes_delete_title">Elimina appunto</string>
+    <string name="notes_delete_message">Confermi l\'eliminazione di questo appunto? Quest\'azione non pu\u00F2 essere annullata</string>
+    <string name="notes_share_message">%1$s: %2$s (%3$s)</string>
+
+    <!-- Preferences -->
+    <string name="preferences_name">Preferenze</string>
+    <string name="preferences_title_address">Indirizzo di studi</string>
+    <string name="preferences_dialog_addresses_title">Seleziona un indirizzo</string>
+    <string name="preferences_title_notifications_ping">Mostra le notifiche per i ping</string>
+    <string name="preferences_summary_on_notifications_ping">Riceverai i ping il prima possibile</string>
+    <string name="preferences_summary_off_notifications_ping">Vedrai i ping solo all\'apertura dell\'app</string>
+    <string name="preferences_username_title">Nome utente</string>
+    <string name="preferences_username_default">Studente</string>
+</resources>

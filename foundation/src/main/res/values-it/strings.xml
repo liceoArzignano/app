@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Features -->
+    <string name="feature_marks">Voti</string>
+    <string name="feature_notes">Note</string>
+    <string name="feature_pings">Ping</string>
+
+    <!-- Actions -->
+    <string name="action_ask_again">Chiedi di nuovo</string>
+    <string name="action_delete">Rimuovi</string>
+    <string name="action_deleted">Rimosso</string>
+    <string name="action_dismiss">Annulla</string>
+    <string name="action_edit">Modifica</string>
+    <string name="action_proceed">Procedi</string>
+    <string name="action_save">Salva</string>
+    <string name="action_saved">Salvato</string>
+    <string name="action_share">Condividi</string>
+
+    <!-- Time -->
+    <string name="time_today">Oggi</string>
+    <string name="time_yesterday">Ieri</string>
+    <string name="time_last_x">%1$s scorso</string>
+    <string name="time_x_y_ago">%1$d %2$s fa</string>
+    <string name="time_tomorrow">Domani</string>
+    <string name="time_next_x">%1$s prossimo</string>
+    <string name="time_in_x_y">Tra %1$d %2$s</string>
+    <string name="time_day_month_short_format">dd MMM</string>
+
+    <!-- Marks -->
+    <string name="marks_quarter_change_title">Nuovo quadrimestre</string>
+    <string name="marks_quarter_change_intro_message">Un nuovo quadrimestre sta per iniziare, per cominciare con il piede giusto potresti archiviare i vecchi voti. Vuoi procedere?</string>
+    <string name="marks_quarter_change_permission_error">Il permesso di accesso alla memoria \u00E8 necessario per archiviare ed esportare i voti del quadrimestre scorso. Per favore, consenti l\'accesso</string>
+    <string name="marks_quarter_change_export_wip">Esportazione dei voti in corso\u2026</string>
+    <string name="marks_quarter_change_delete">Tutti i tuoi voti sono stati salvati nella memoria. Vuoi rimuoverli dall\'app e iniziare il quadrimestre in modo pulito?\n(Potrai consultare i vecchi voti dal file esportato nella memoria)</string>
+    <string name="marks_quarter_change_delete_wip">Eliminazione voti vecchi in corso\u2026</string>
+    <string name="marks_quarter_change_done">Finito! Ora sei pronto per iniziare un nuovo quadrimestre.</string>
+
+    <!-- Marks - Editor -->
+    <string name="marks_editor_title_new">Nuovo voto</string>
+    <string name="marks_editor_title_update">Modifica voto</string>
+    <string name="marks_editor_hint_subject">Materia</string>
+    <string name="editor_hint_date">Data</string>
+    <string name="marks_editor_hint_notes">Note</string>
+    <string name="marks_editor_hint_value">0</string>
+    <string name="marks_editor_error_value">Imposta un risultato valido</string>
+
+    <!-- Marks - Subject view -->
+    <string name="marks_empty_content">I tuoi voti appariranno qui.\nTocca il pulsante + per aggiungere il tuo primo voto</string>
+    <string name="editor_date_format">EEEE dd MM yyyy</string>
+    <string name="marks_delete_title">Elimina voto</string>
+    <string name="marks_delete_message">Confermi l\'eliminazione di questo voto? Quest\'azione non pu\u00F2 essere annullata</string>
+    <string name="marks_share_message">Ho preso %1$s in %2$s</string>
+    <string name="marks_preview">La tua media \u00E8 %1$.2f\nPer avere la sufficienza il prossimo voto deve essere almeno %2$s</string>
+
+    <!-- Marks - Subjects -->
+    <string name="subject_english">Inglese</string>
+    <string name="subject_french">Francese</string>
+    <string name="subject_german">Tedesco</string>
+    <string name="subject_history">Storia</string>
+    <string name="subject_history_of_art">Storia dell\'arte</string>
+    <string name="subject_human">Scienze umane</string>
+    <string name="subject_irc">IRC</string>
+    <string name="subject_it">Informatica</string>
+    <string name="subject_italian">Italiano</string>
+    <string name="subject_latin">Latin0</string>
+    <string name="subject_law_economy">Legge &amp; economia</string>
+    <string name="subject_math">Matematica</string>
+    <string name="subject_philosophy">Filosofia</string>
+    <string name="subject_physics">Fisica</string>
+    <string name="subject_ped">Ed. fisica</string>
+    <string name="subject_science">Scienze</string>
+    <string name="subject_spanish">Spagnolo</string>
+
+    <!-- Pings -->
+    <string name="ping_empty_content">I ping che riceverai appariranno qui.\nUn ping pu\u00F2 essere una circolare o una notizia inviata dalla scuola</string>
+
+    <!-- Help -->
+    <string name="help_title">Guida</string>
+    <string name="help_category_contact">Contattaci</string>
+    <string name="help_contact_call">Telefono</string>
+    <string name="help_contact_email">Email</string>
+    <string name="help_contact_feedback">Invia feedback</string>
+    <string name="help_category_how">Popolari</string>
+    <string name="help_how_pings">Ping</string>
+    <string name="help_how_marks">Voti</string>
+    <string name="help_how_notes">Appunti</string>
+    <string name="help_category_info">Info</string>
+    <string name="help_info_version">Versione %1$s</string>
+    <string name="help_info_oss">Open source</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_pings_title">Ping</string>
+    <string name="notification_channel_pings_description">Notizie e circolari dalla scuola</string>
+</resources>
