@@ -1,0 +1,48 @@
+<!--
+  Copyright (c) 2018 Liceo L. Da Vinci, Arzignano (VI)
+  Copyright (c) 2018 Bevilacqua Joey 
+  
+  Licensed under the GNU GPLv3 license
+  
+  The text of the license can be found in the LICENSE file
+  or at https://www.gnu.org/licenses/gpl.
+  -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/splash_icon"
+        android:layout_width="72dp"
+        android:layout_height="120dp"
+        android:paddingBottom="48dp"
+        android:src="@drawable/ic_launcher_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/splash_icon" />
+
+    <ProgressBar
+        android:id="@+id/splash_progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:paddingBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:progress="33" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

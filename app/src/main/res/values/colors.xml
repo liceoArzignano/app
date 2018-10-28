@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2018 Liceo L. Da Vinci, Arzignano (VI)
+  Copyright (c) 2018 Bevilacqua Joey
+
+  Licensed under the GNU GPLv3 license
+
+  The text of the license can be found in the LICENSE file
+  or at https://www.gnu.org/licenses/gpl.
+  -->
+
+<resources>
+    <color name="colorPrimary">#FFF6C8</color>
+    <color name="colorPrimaryDark">#FFEA81</color>
+    <color name="colorPrimaryLight">#FFFCE9</color>
+    <color name="colorPrimaryEmphasis">#ED7A2B</color>
+
+    <color name="colorAccent">#FFB03B</color>
+    <color name="colorAccentEmphasis">#E74100</color>
+
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorSurfaceDark">#F5F5F5</color>
+
+    <color name="navigationBar_color">@color/colorSurface</color>
+    <color name="navigationBar_divider">#1f000000</color>
+</resources>

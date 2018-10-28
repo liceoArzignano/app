@@ -1,0 +1,23 @@
+<!--
+  Copyright (c) 2018 Liceo L. Da Vinci, Arzignano (VI)
+  Copyright (c) 2018 Bevilacqua Joey
+
+  Licensed under the GNU GPLv3 license
+
+  The text of the license can be found in the LICENSE file
+  or at https://www.gnu.org/licenses/gpl.
+  -->
+
+<resources>
+    <string name="app_name">Liceo</string>
+    <string name="title_pings">Pings</string>
+    <string name="title_marks">Marks</string>
+    <string name="title_reminders">Reminders</string>
+
+    <string name="action_retry">Retry</string>
+
+    <string name="splash_error_title">Error</string>
+    <string name="splash_error_network">Oh no, there\'s no internet connection!\nPlease turn on Wi-Fi and/or mobile data to start the application.</string>
+    <string name="splash_error_unsupported">Oh no, this device does not support this application</string>
+    <string name="splash_error_unknown">Oh no, error %1$d happened. Please try again later</string>
+</resources>
